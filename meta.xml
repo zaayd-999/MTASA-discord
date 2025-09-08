@@ -1,0 +1,18 @@
+<meta>
+    <script src="Messages/Embed_S.lua" type="shared" />
+    <script src="Messages/Attachement_S.lua" type="shared" />
+    <script src="Messages/Button_S.lua" type="shared" />
+    <script src="Messages/ButtonType.lua" type="shared" />
+    <script src="Messages/ActionRow_S.lua" type="shared" />
+
+    <script src="Clients/client_S.lua" type="server" />
+    <script src="test.lua" type="server" />
+
+    <export function="getEmbedBuilderModule" type = "shared" />
+    <export function="getClientModule" type="server" />
+    <export function="getButtonStyle" type="shared" />
+    <export function="getButtonBuilderModule" type="shared" />
+    <export function="getActionRowBuilderModule" type="shared" />
+    
+    <min_mta_version both="1.5.4-9.11342" />
+</meta>
