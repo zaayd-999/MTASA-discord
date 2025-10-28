@@ -1,0 +1,39 @@
+<meta>
+    <info 
+        author="zaayd-999" 
+        version="1.0.1" 
+        name="MTA-Discord" 
+        description="Discord API integration for MTA:SA. Visit my GitHub for more information (use /github to copy the link to your clipboard)." 
+    />
+                <!--Scripts-->
+    <script src="Builders/Messages/Embed_S.lua" type="shared" />
+    <script src="Builders/Messages/Attachement_S.lua" type="shared" />
+    <script src="Builders/Messages/Button_S.lua" type="shared" />
+    <script src="Builders/Messages/ButtonType.lua" type="shared" />
+    <script src="Builders/Messages/ActionRow_S.lua" type="shared" />
+    <script src="Builders/Messages/Message_S.lua" type="shared" />
+    <script src="Builders/Clients/client_S.lua" type="server" />
+    <script src="Managers/Message/message_S.lua" type="server" />
+                <!--Scripts-->
+
+                <!--Functions-->
+    <export function="getEmbedBuilderModule" type = "shared" />
+    <export function="getClientModule" type="server" />
+    <export function="getButtonStyle" type="shared" />
+    <export function="getButtonBuilderModule" type="shared" />
+    <export function="getActionRowBuilderModule" type="shared" />
+    <export function="getMessageBuilderModule" type="shared" />
+    <export function="sendMessage" type="server" />
+    <export function="deleteMessage" type="server" />
+    <export function="editMessage" type="server" />
+                <!--Functions-->
+
+                <!--Test-->
+    <script src="main_C.lua" type="client" />
+    <script src="main_S.lua" type="server" />
+                <!--Test-->
+
+                <!--Version-->
+    <min_mta_version both="1.5.4-9.11342" />
+                <!--Version-->
+</meta>
